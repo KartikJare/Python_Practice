@@ -1,0 +1,23 @@
+def Multiplication(Value1,Value2):
+    Ans = 0        #Local Variable
+    Ans = Value1 * Value2
+    return Ans
+
+# Gobal variable
+No1 = 0
+No2 = 0
+Result = 0
+
+No1 = int(input("Enter first number : "))
+No2 = int(input("Enter second Number : "))
+
+Result = Multiplication(No1,No2)
+print("Multipliation is : ",Result)
+
+#####################################################
+
+No1 = int(input("Enter first number : "))
+No2 = int(input("Enter second Number : "))
+
+Result = Multiplication(No1,No2)
+print("Multipliation is : ",Result)
